@@ -1,0 +1,45 @@
+.hero2{
+    margin-top:5vh;
+}
+.hero2 h1{
+    margin-left:8vw;
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:20px;
+    width:40vw;
+}
+.hero2-box{
+    display:flex;
+    justify-content:space-around;
+}
+.box-item img{
+    height:7vh;
+}
+.box-item h2{
+    margin-top:20px;
+}
+.box-item p{
+    margin-top:20px;
+    width:18vw;
+    font-size:0.9rem;
+    color:gray;
+}
+.box-item h4{
+    margin-top:40px;
+    color:#CE8600;
+    font-weight:600;
+}
+@media (max-width:900px){
+    .hero2 h1{
+        font-size:1.5rem;
+        width:60vw;
+    }
+   .hero2-box{
+display:block;
+margin-left:10vw;
+margin-bottom:20px;
+   }
+   .box-item p{
+       width:35vw;
+    }
+}

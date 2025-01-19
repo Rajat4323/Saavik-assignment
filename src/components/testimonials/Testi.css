@@ -1,0 +1,65 @@
+.testi{
+    margin-left:8vw;
+}
+.testi-heading{
+    background-color:#FFE5B4;
+    color:#CE8600;
+    padding:5px;
+    width:7vw;
+    font-size:0.8rem;
+}
+.testi-line{
+    display:flex;
+    align-items:center;
+}
+
+.testi-line img{
+margin-left:10px;
+}
+.testi-head{
+    margin-top:20px;
+    font-size:2rem;
+    font-weight:bold;
+    margin-bottom:10px;
+    width:30vw;
+}
+.testi-para{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:32vw;
+    color:gray;
+}
+.reviews{
+    display:flex;
+    align-items:center;
+    gap:5vw;
+}
+@media (max-width:1200px){
+    .testi-heading{
+        font-size:0.6rem;
+       }
+       .testi-head{
+        font-size:1.5rem;
+        width:40vw;
+       }
+       .testi-para{
+        width:45vw;
+        font-size:1rem;
+       }
+}
+
+@media (max-width:1000px){
+.reviews{
+    display:flex;
+    gap:1vw;
+}
+}
+@media (max-width:850px)
+{
+    .reviews{
+        display:block;
+    }
+    .testi-heading{
+        font-size:0.4rem;
+       }
+}

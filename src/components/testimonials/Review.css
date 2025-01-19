@@ -1,0 +1,56 @@
+.review{
+    width:20vw;
+    height:22vh;
+    padding:10px;
+    border:2px solid gray;
+    border-radius:0px 15px 0px 15px;
+}
+.profile{
+    margin-bottom:20px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.profile-pic img{
+    height:50px;
+    width:50px;
+}
+.profile-info p{
+    font-size:0.8rem;
+    color:lightgray;
+font-weight:bold;
+}
+.review-text{
+    width:18vw;
+    color:gray;
+    font-size:0.8rem;
+}
+.coma img{
+    margin-top:30px;
+    margin-left:17vw;
+height:20px;
+}
+@media (max-width:1100px){
+    .coma img{
+        margin-top:10px;
+    }
+
+}
+@media (max-width:900px){
+    .coma img{
+       height:10px;
+    }
+    .profile-info h3{
+        font-size:1rem;
+    }
+    .profile-info p{
+        font-size:0.6rem;
+        width:16vw;
+    }
+    .review{
+        width:35vw;  
+      }
+     .review-text{
+width:30vw;
+      }
+}
